@@ -3,8 +3,8 @@
 ### Spm + W2v + cnn2d
 
 ![스크린샷 2020-09-02 오전 11 20 21](https://user-images.githubusercontent.com/40457277/91924676-52a39a00-ed0e-11ea-9bb4-86138cb5f096.png)
-
-
+* sample model
+![sample_model](https://user-images.githubusercontent.com/40457277/91927467-8ed9f900-ed14-11ea-9bde-84738a9b039a.png)
 
 - tutorial -> ipynb파일로 실행해 볼 수 있습니다.
 
