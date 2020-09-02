@@ -20,7 +20,7 @@
 
 
 
-- src폴더 안의 .py파일은 아래와 같은 순서로 디버그 하시면 됩니다.
+- src폴더 안의 .py파일은 data폴더 안에 학습시킬 spm text데이터와 classification할 pickle 데이터를 넣고 아래와 같은 순서로 디버그 하시면 out폴더에 모델이 생성됩니다.
 
 > train_spm.py   
 > train_w2v_and_model.py   
