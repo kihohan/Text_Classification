@@ -22,4 +22,3 @@
 > train_spm.py   
 > train_w2v_and_model.py   
 > prediction.py   
-
