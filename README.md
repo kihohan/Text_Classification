@@ -3,9 +3,9 @@
 ### Spm + W2v + cnn2d
 
 ![스크린샷 2020-09-02 오전 11 20 21](https://user-images.githubusercontent.com/40457277/91924676-52a39a00-ed0e-11ea-9bb4-86138cb5f096.png)
-
+- sample
 ![sample_model](https://user-images.githubusercontent.com/40457277/91927467-8ed9f900-ed14-11ea-9bde-84738a9b039a.png)
-
+---
 - tutorial -> ipynb파일로 실행해 볼 수 있습니다.
 
 - parameter은 간단하게 spm_vocab_size, embedding_layer, max_len 3개가 있으며(코드 내에서 다양하게 튜닝 가능) 아래와 같은 설정이 이상적으로 결과가 나오는 것으로 확인되었습니다. (참조) 
