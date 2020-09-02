@@ -13,5 +13,9 @@
 
 
 
-- src폴더 안의 .py파일은 
-> ㄴㅇㄹㅇㄴㄹㄴㅇㄹ
+- src폴더 안의 .py파일은 아래와 같은 순서로 디버그 하시면 됩니다.
+> train_spm.py
+> train_w2v_and_model.py
+> model.py
+> prediction.py
+
