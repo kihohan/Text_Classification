@@ -8,7 +8,8 @@
 
 - tutorial -> ipynb파일로 실행해 볼 수 있습니다.
 
-- parameter은 간단하게 spm_vocab_size, embedding_layer, max_len 3개가 있으며(코드 내에서 다양하게 튜닝 가능) 아래와 같은 설정이 이상적으로 결과가 나오는 것으로 확인되었습니다. (참조)   
+- parameter은 간단하게 spm_vocab_size, embedding_layer, max_len 3개가 있으며(코드 내에서 다양하게 튜닝 가능) 아래와 같은 설정이 이상적으로 결과가 나오는 것으로 확인되었습니다. (참조) 
+
 ![스크린샷 2020-09-02 오전 11 38 01](https://user-images.githubusercontent.com/40457277/91925818-c777d380-ed10-11ea-85c0-2ff4eb648bc6.png)
 - 기본적으로 data 폴드안에 spm모델을 생성 할 text파일과 classifcation할 pickle 데이터를 넣으시면 됩니다.
 - spm text 파일은 classification 데이터 도메인에 맞는 '뛰어쓰기'가 잘된 파일을 학습시키는 것이 최선입니다.
