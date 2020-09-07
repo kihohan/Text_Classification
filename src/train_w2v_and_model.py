@@ -123,6 +123,7 @@ def modeling(df_pickle, embedding_dim, max_len):
     pred_bool = np.argmax(pred,1)
     y_test_bool = np.argmax(y_test,1)
     print(classification_report(y_test_bool, pred_bool))
+    # classification_report = pd.DataFrame(classification_report(y_test_bool, pred_bool)).transpose()
     # save labels
     _class = label_encoder.classes_
     _num = [x for x in range(len(_class))]
