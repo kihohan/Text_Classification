@@ -1,4 +1,4 @@
-# text_classification
+# Text_Classification
 
 ### Spm + W2v + cnn2d
 ---
