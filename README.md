@@ -1,6 +1,6 @@
 # Text_Classification
 
-### Spm + W2v + cnn2d
+### Spm + W2v + CNN2d
 ---
 ![스크린샷 2020-09-02 오전 11 20 21](https://user-images.githubusercontent.com/40457277/91924676-52a39a00-ed0e-11ea-9bb4-86138cb5f096.png)
 
