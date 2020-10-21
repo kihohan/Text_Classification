@@ -22,3 +22,14 @@
 > train_spm.py   
 > train_w2v_and_model.py   
 > prediction.py   
+
+- reference
+
+Sentencepiece: https://donghwa-kim.github.io/SPM.html  
+Character-level Convolutional Networks for Text: Classification: https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf  
+Convolutional Neural Networks for Sentence Classification: https://www.aclweb.org/anthology/D14-1181.pdf  
+실습예제_1: https://reniew.github.io/26/  
+실습예제_2: https://heung-bae-lee.github.io/2020/02/01/NLP_05/  
+실습예제_3: https://buomsoo-kim.github.io/keras/2018/05/16/Easy-deep-learning-with-Keras-12.md/  
+실습예제_4: https://buomsoo-kim.github.io/keras/2018/05/23/Easy-deep-learning-with-Keras-13.md/  
+[NDC] 딥러닝으로 욕설 탐지하기: https://www.youtube.com/watch?v=K4nU7yXy7R8&t=1574s  
