@@ -39,5 +39,8 @@ def mp_clean_spm(p):
     return x
 
 if __name__ == "__main__":
+    df_size = 50000
+    df_chunk = [df[i*df_size:(i+1)*df_size] for i in range(len(df) // df_size + 1)]
+    len(df_chunk)
     r = mp(mp_clean_spm, df_chunk, 32, True).run()
     result = pd.concat(r).sort_index()
