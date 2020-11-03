@@ -41,6 +41,6 @@ def mp_clean_spm(p):
     return x
 
 if __name__ == "__main__":
-    df_chunk = np.array_split(df, 4)
+    df_chunk = np.array_split(df, 32)
     r = mp(mp_clean_spm, df_chunk, 32, True).run()
     result = pd.concat(r).sort_index()
