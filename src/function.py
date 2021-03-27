@@ -43,7 +43,7 @@ def clean_spm(lst):
     a = [clean_text(x) for x in lst] 
     b = [clean_num(x) for x in a] 
     c = [_del(x) for x in b]
-    d = [x for x in c if len(x) != 0]
+    d = [x for x in c if len(x) != 1]
     e = ['즉석죽' if x=='죽' else x for x in d]
     f = ['껌껌' if x=='껌' else x for x in e]
     g = ['Tea' if x=='티' else x for x in f]
